@@ -71,10 +71,6 @@ html {
   color: #bdae82;
 }
 
-.list-nav:link {
-  color: #fff;
-}
-
 .list-nav:visited {
   color: #bdae82;
 }
@@ -94,10 +90,6 @@ html {
 
 .lang-option a:hover {
   color: #bdae82;
-}
-
-.lang-option:link {
-  color: #fff;
 }
 
 .lang-option:visited {
