@@ -67,7 +67,7 @@ html {
   transition: all 0.3s ease 0s;
 }
 
-.list-nav:hover {
+.list-nav li a:hover {
   color: #bdae82;
 }
 
@@ -92,7 +92,7 @@ html {
   text-decoration: none;
 }
 
-.lang-option:hover {
+.lang-option a:hover {
   color: #bdae82;
 }
 
