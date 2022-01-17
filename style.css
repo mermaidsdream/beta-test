@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+/* === section header === */
+
 body,
 html {
   font-family: "Inter", sans-serif;
@@ -24,7 +26,7 @@ html {
   padding: 0 20px;
 }
 
-.header {
+.hero {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -50,7 +52,8 @@ html {
 }
 
 .logo:visited {
-  color: #bdae82;
+  filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
 }
 
 .list-nav li,
@@ -64,15 +67,15 @@ html {
   transition: all 0.3s ease 0s;
 }
 
-.list-nav li a:hover {
+.list-nav a:hover {
   color: #bdae82;
 }
 
-.list-nav li a:link {
+.list-nav a:link {
   color: #fff;
 }
 
-.list-nav li a:visited {
+.list-nav a:visited {
   color: #bdae82;
 }
 
@@ -98,8 +101,10 @@ html {
 }
 
 .lang-option a:visited {
-  background-color: #bdae82;
+  color: #bdae82;
 }
+
+/* === section main content === */
 
 .main {
   display: flex;
@@ -112,7 +117,7 @@ html {
   position: absolute;
   width: 500px;
   height: 330px;
-  top: 250px;
+  top: 150px;
   left: 5.56%;
   right: 59.72%;
 }
@@ -157,6 +162,7 @@ html {
 
 .hero-button:hover {
   color: #fff;
+  transition: all 0.3s ease 0s;
 }
 
 .hero-button:link {
@@ -166,6 +172,8 @@ html {
 .hero-button:visited {
   background-color: #bdae82;
 }
+
+/* === section skills === */
 
 .section-skills,
 .section-portfolio,
@@ -177,8 +185,6 @@ html {
   align-items: center;
   color: #bdae82;
 }
-
-/* === section skills === */
 
 .section-skills {
   position: absolute;
@@ -418,7 +424,7 @@ html {
   width: 1440px;
   height: 1500px;
   left: 0px;
-  top: 1392px;
+  top: 1300px;
 }
 
 .section-title-portfolio {
@@ -476,6 +482,7 @@ html {
   border: 2px solid #bdae82;
   box-sizing: border-box;
   border-radius: 0px;
+  cursor: pointer;
 }
 
 .button-portfolio-text-autumn {
@@ -497,6 +504,7 @@ html {
 .button-portfolio-text-spring:hover,
 .button-portfolio-text-winter:hover {
   color: #fff;
+  transition: all 0.3s ease 0s;
 }
 
 .button-portfolio-text-autumn:link,
@@ -523,6 +531,7 @@ html {
   border: 2px solid #bdae82;
   box-sizing: border-box;
   border-radius: 0px;
+  cursor: pointer;
 }
 
 .button-portfolio-text-summer {
@@ -550,6 +559,7 @@ html {
   border: 2px solid #bdae82;
   box-sizing: border-box;
   border-radius: 0px;
+  cursor: pointer;
 }
 
 .button-portfolio-text-spring {
@@ -576,6 +586,7 @@ html {
   border: 2px solid #bdae82;
   box-sizing: border-box;
   border-radius: 0px;
+  cursor: pointer;
 }
 
 .button-portfolio-text-winter {
@@ -731,12 +742,16 @@ html {
   height: 130px;
   left: 656px;
   top: 528px;
+  cursor: pointer;
   color: #fff;
   z-index: 3;
 }
 
 .video-play-button:hover {
-  color: #bdae82;
+  filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
 }
 
 /* === section price === */
@@ -795,7 +810,6 @@ html {
 }
 
 .price-items {
-  position: absolute;
   width: 1400px;
   height: 505px;
   top: 240px;
@@ -843,15 +857,36 @@ html {
 
 .price-item-text1 {
   position: absolute;
+  font-family: "Inter", sans-serif;
   width: 364px;
   height: 180px;
   top: 187px;
-  left: 43.33px;
-  right: 9.48%;
+  left: 0px;
+  right: 0px;
   color: #fff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 36px;
+  text-align: center;
 }
 
 .btn-price-item1 {
+  position: absolute;
+  width: 220px;
+  height: 55px;
+  left: 115px;
+  right: 25.56%;
+  top: 407px;
+  background: #bdae82;
+  border-radius: 0px;
+  text-align: center;
+  color: #000;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 40px;
+  cursor: pointer;
 }
 
 .price-item2 {
@@ -895,15 +930,35 @@ html {
 
 .price-item-text2 {
   position: absolute;
+  font-family: "Inter", sans-serif;
   width: 364px;
   height: 180px;
   top: 187px;
-  left: 42.98px;
-  right: 9.56%;
+  left: 0px;
+  right: 0px;
   color: #fff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 36px;
+  text-align: center;
 }
 
 .btn-price-item2 {
+  position: absolute;
+  width: 220px;
+  height: 55px;
+  top: 407px;
+  left: 25.56%;
+  right: 25.56%;
+  text-align: center;
+  color: #000;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 40px;
+  background: #bdae82;
+  cursor: pointer;
 }
 
 .price-item3 {
@@ -947,24 +1002,230 @@ html {
 
 .price-item-text3 {
   position: absolute;
+  font-family: "Inter", sans-serif;
   width: 364px;
   height: 180px;
   top: 187px;
-  left: 43px;
-  right: 9.56%;
+  left: 0px;
+  right: 0px;
   color: #fff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 36px;
+  text-align: center;
 }
 
 .btn-price-item3 {
+  position: absolute;
+  width: 220px;
+  height: 55px;
+  left: 115px;
+  right: 25.56%;
+  top: 407px;
+  background: #bdae82;
+  color: #000;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
 }
 
-/* === section contact me === */
+.btn-price-item1:hover,
+.btn-price-item2:hover,
+.btn-price-item3:hover {
+  color: #fff;
+  transition: all 0.3s ease 0s;
+}
 
-.section-contact-me {
+/* === section contacts === */
+
+.section-contacts {
+  position: absolute;
+  width: 1440px;
+  height: 692px;
+  left: 0;
+  top: 4690px;
+  background: url(./assets/img/bg-contacts.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contacts-container {
+  position: absolute;
+  width: 450px;
+  height: 445px;
+  left: 970px;
+  top: 60px;
 }
 
 .section-title-contact-me {
   font-family: "Merriweather", serif;
+  font-style: normal;
   font-weight: bold;
   font-size: 40px;
+  line-height: 80px;
+  color: #bdae82;
+  width: 450px;
+  height: 80px;
+  right: 20px;
+  top: 60px;
+}
+
+form {
+  width: 450px;
+  max-width: 500px;
+  padding: 180px 20px;
+  right: 33px;
+  top: -70px;
+  position: absolute;
+}
+
+.contact-form {
+  background: rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  border-radius: 0px;
+  position: relative;
+  margin: 15px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  top: 320px;
+  left: 970px;
+  right: 1.39%;
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid #bdae82;
+  box-sizing: border-box;
+  border-radius: 0px;
+  color: #fff;
+}
+
+label {
+  position: absolute;
+  left: 0;
+  padding: 10px;
+  cursor: text;
+  color: #bdae82;
+}
+
+::placeholder {
+  font-family: "Inter", sans-serif;
+  color: #bdae82;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.contact-btn {
+  position: absolute;
+  width: 220px;
+  height: 55px;
+  top: 400px;
+  left: 35px;
+  right: 0%;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  color: #000;
+  background: #bdae82;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+.contact-btn:hover {
+  color: #fff;
+  transition: all 0.3s ease 0s;
+}
+
+.contact-btn:link {
+  color: #bdae82;
+}
+
+.contact-btn:visited {
+  background-color: #bdae82;
+  color: #000;
+}
+
+/* === footer content === */
+
+.footer {
+  position: relative;
+  width: 1440px;
+  height: 100px;
+  left: 0px;
+  top: 5382px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li,
+a {
+  color: #fff;
+  text-decoration: none;
+  list-style-type: none;
+  display: inline-flex;
+  transition: all 0.3s ease 0s;
+  padding: 25px 5px;
+}
+
+.footer-data a {
+  cursor: pointer;
+}
+
+.footer-data a:hover {
+  color: #bdae82;
+}
+
+.footer-text {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 50px;
+}
+
+.footer-text:hover {
+  filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
+}
+
+.footer-text:link {
+  color: #fff;
+}
+
+.footer-text:visited {
+  filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
+}
+
+.footer-social-list {
+  color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.footer-social:hover {
+  filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
+  cursor: pointer;
+}
+
+.footer-social:link {
+  color: #fff;
+}
+
+.footer-social:visited {
+  filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
 }
