@@ -67,15 +67,15 @@ html {
   transition: all 0.3s ease 0s;
 }
 
-.list-nav a:hover {
+.list-nav:hover {
   color: #bdae82;
 }
 
-.list-nav a:link {
+.list-nav:link {
   color: #fff;
 }
 
-.list-nav a:visited {
+.list-nav:visited {
   color: #bdae82;
 }
 
@@ -92,15 +92,15 @@ html {
   text-decoration: none;
 }
 
-.lang-option a:hover {
+.lang-option:hover {
   color: #bdae82;
 }
 
-.lang-option a:link {
+.lang-option:link {
   color: #fff;
 }
 
-.lang-option a:visited {
+.lang-option:visited {
   color: #bdae82;
 }
 
