@@ -1,1 +1,1 @@
-# portfolio website https://mermaidsdream.github.io/portfolio/#portfolio
+# portfolio website https://mermaidsdream.github.io/portfolio/
