@@ -100,7 +100,7 @@ html {
   color: #fff;
 }
 
-.header-nav:hover {
+.list-nav li a:hover {
   color: #bdae82;
   transition: all 0.5s ease 0s;
 }
@@ -311,6 +311,10 @@ html {
 .lang-option a:hover {
   color: #bdae82;
   transition: all 0.5s ease 0s;
+}
+
+.lang-option:visited {
+  color: #bdae82;
 }
 
 /* === section main content === */
